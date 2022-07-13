@@ -15,7 +15,6 @@ Here's what I'm currently up to.
 
 * The Shadow Rising (Wheel Of Time, Book 4) - Robert Jordan
 * Clean Code: A Handbook of Agile Software Craftmanship - Robert C. Martin
-* Digital Minimalism: Choosing a Focused Life in a Noisy World - Cal Newport
 
 All my finished books & reviews for them are on my [book reviews](/reading) page.
 
@@ -31,6 +30,7 @@ All my finished books & reviews for them are on my [book reviews](/reading) page
 ### Doom Emacs
 
 * Forcing myself to use Doom Emacs as my main text editor in order to get used to it
+* Managed to mostly set up everything I need for C# development, Rust development and web development and I'm now finally getting more used to navigating around Doom Emacs in general
 
 ### Movies
 
