@@ -82,6 +82,78 @@ a:visited {
     font-weight: bold;
 }
 
+.breadcrumbs {
+    margin-top: 1em;
+    list-style: none;
+    margin-left: 1.125em;
+}
+
+.breadcrumbs ul {
+
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.breadcrumbs li {
+    white-space: nowrap;
+    transition: 0.3s ease-in-out;
+    background: var(--nav-background-color);
+    position: relative;
+    height: 2em;
+    line-height: 2em;
+    margin-right: 2em;
+    padding: 0 2em;
+
+
+}
+
+.breadcrumbs li:last-child {
+    margin-right: 0;
+}
+
+
+.breadcrumbs li::before {
+    transition: 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1em;
+    border-left: 1em solid transparent;
+    border-top: 1em solid var(--nav-background-color);
+    border-bottom: 1em solid var(--nav-background-color);
+}
+
+
+
+.breadcrumbs li::after {
+    transition: 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: -1em;
+    border-left: 1em solid var(--nav-background-color);
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    content: "";
+}
+
+
+.breadcrumbs li:hover {
+    background: red;
+}
+
+.breadcrumbs li:hover::before {
+    border-top-color: red;
+    border-bottom-color: red;
+}
+
+.breadcrumbs li:hover::after {
+    border-left-color: red;
+}
+
+
 /* CONTENT */
 
 .content {

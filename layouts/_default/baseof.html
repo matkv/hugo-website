@@ -8,6 +8,7 @@
 <body>
     {{ partial "navigation.html" .}}
     <div class="content">
+        {{ partial "breadcrumbs.html" .}}
         {{ block "main" . }}
 
         {{ end }}

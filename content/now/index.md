@@ -3,29 +3,35 @@ type: "now"
 title: "now"
 ---
 
+I'm currently:
+
+- Learning Rust 
+
+
+
+
+
+
 Here's what I'm currently up to.
 
+
 ### Programming
+- Learning Rust
+- Working on [this website](https://github.com/matkv/hugo-website)
 
-* Started working on a small [Rust tool](https://github.com/matkv/lichess-stats) to read and display stats from [Lichess](https://lichess.org)
-* Learning Rust
-* Working on [this website](https://github.com/matkv/hugo-website)
 
-### Reading
+**Reading**
+- The Shadow Rising (Wheel Of Time, Book 4) - Robert Jordan
+- Clean Code: A Handbook of Agile Software Craftmanship - Robert C. Martin
 
-* The Shadow Rising (Wheel Of Time, Book 4) - Robert Jordan
-* Clean Code: A Handbook of Agile Software Craftmanship - Robert C. Martin
+All my finished books & reviews for them can be found on my [book reviews](/reading) page.
 
-All my finished books & reviews for them are on my [book reviews](/reading) page.
+**Obsidian**
+- Building a personal knowledge base using [Obsidian](https://www.obsidian.md) & importing all my existing notes from various places 
 
-### Obsidian
-
-* Building a personal knowledge base using [Obsidian](https://www.obsidian.md) & importing all my existing notes from various places 
-
-### Chess
-
-* Playing bullet, blitz & rapid chess daily on Lichess
-* Trying to find some openings to learn
+**Chess**
+- Playing bullet, blitz & rapid chess daily on Lichess
+- Trying to find some openings to learn
 
 ### Doom Emacs
 
