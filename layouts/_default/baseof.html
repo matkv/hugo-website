@@ -8,7 +8,9 @@
 <body>
     {{ partial "navigation.html" .}}
     <div class="content">
+        {{ if not .IsHome }}
         {{ partial "breadcrumbs.html" .}}
+        {{end}}
         {{ block "main" . }}
 
         {{ end }}

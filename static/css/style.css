@@ -83,17 +83,19 @@ a:visited {
 }
 
 .breadcrumbs {
-    margin-top: 1em;
+    margin-top: 0.5em;
     list-style: none;
     margin-left: 1.125em;
 }
 
 .breadcrumbs ul {
 
-    display: inline-flex;
+    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
+
 }
 
 
@@ -102,12 +104,18 @@ a:visited {
     transition: 0.3s ease-in-out;
     background: var(--nav-background-color);
     position: relative;
-    height: 2em;
-    line-height: 2em;
+    height: 1.5em;
+    line-height: 1.5em;
     margin-right: 2em;
     padding: 0 2em;
+    width: fit-content;
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+}
 
-
+.breadcrumbs li a {
+    text-transform: lowercase;
+    text-decoration: none;
 }
 
 .breadcrumbs li:last-child {
@@ -120,10 +128,10 @@ a:visited {
     content: "";
     position: absolute;
     top: 0;
-    left: -1em;
-    border-left: 1em solid transparent;
-    border-top: 1em solid var(--nav-background-color);
-    border-bottom: 1em solid var(--nav-background-color);
+    left: -0.75em;
+    border-left: 0.75em solid transparent;
+    border-top: 0.75em solid var(--nav-background-color);
+    border-bottom: 0.75em solid var(--nav-background-color);
 }
 
 
@@ -132,10 +140,10 @@ a:visited {
     transition: 0.3s ease-in-out;
     position: absolute;
     top: 0;
-    right: -1em;
-    border-left: 1em solid var(--nav-background-color);
-    border-top: 1em solid transparent;
-    border-bottom: 1em solid transparent;
+    right: -0.75em;
+    border-left: 0.75em solid var(--nav-background-color);
+    border-top: 0.75em solid transparent;
+    border-bottom: 0.75em solid transparent;
     content: "";
 }
 

@@ -1,6 +1,7 @@
 <div class="breadcrumbs">
 
     <ul>
+        <li><a href="/">Home</a></li>
         {{- $.Scratch.Set "url" "" -}}
         {{- range (split .RelPermalink "/") -}}
         {{- if (gt (len .) 0) -}}
