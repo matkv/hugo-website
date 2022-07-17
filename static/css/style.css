@@ -95,6 +95,7 @@ a:visited {
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
+    background-color: red;
 
 }
 
@@ -109,7 +110,7 @@ a:visited {
     margin-right: 2em;
     padding: 0 2em;
     width: fit-content;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.1em;
     font-size: 0.8em;
 }
 
